@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<h1>Sign Up Form For Sports Blog</h1>
+<p>this form will be used to create an account and collect information for vistors to the sports blog</p>
+<form action="https://handlers.education.launchcode.org/request-parrot" method="post">
+  <label for="firstname">First Name:</label>
+  <input name="firstname" type="text" required="required" id="firstname">
+<br>
+<label for="lastname">Lastname:</label>
+	<input name="lastname" type="text" required="required" id="lastname">
+	
+	<br>
+  <label for="Username">Username:</label>
+	<input name="Username" type="text" required="required" id="Username" pattern="[A-Za-z]{6,10}">
+	<br>
+  <label for="password">Password:</label>
+	<label><input name="password" type="password" required="required" id="password" pattern="[0-9A-Za-z]{6,10}"></label>
+	<br>
+  <label for="Date Of Birth">Date of Birth:</label>
+	<input name="Date Of Birth" type="date" required="required" id="Date Of Birth">
+	<br>
+	<label for="Phone Number">Phone Number:</label>
+  <input name="Phone Number" type="tel" required="required" id="Phone Number" maxlength="10">
+	<br>
+  <label for="Email">Email:</label>
+	<input name="Email" type="email" required="required" id="Email">
+	<br>
+  <label for="Personal Website">Personal Website:</label>
+	<input name="Personal Website" type="url" id="Personal Website">
+	<br>
+	<label>Intrests:</label>
+	  <label>
+		  <br>
+	    <input type="checkbox" name="CheckboxGroup1_0" value="Lebron" id="CheckboxGroup1_0">
+	    Lebron</label>
+	  <br>
+	  <label>
+	    <input type="checkbox" name="CheckboxGroup1_1" value="Kobe" id="CheckboxGroup1_1">
+	    Kobe</label>
+	  <br>
+	  <label>
+	    <input type="checkbox" name="CheckboxGroup1_2" value="Jordan" id="CheckboxGroup1_2">
+	    Jordan</label>
+	  <br>
+	  <label>
+	    <input type="checkbox" name="CheckboxGroup1_3" value="Kevin Durant" id="CheckboxGroup1_3">
+	    Kevin Durant</label>
+	  <br>
+  <label>Where Did You Hear About This Site:</label>
+	<br>
+	  <label>
+	    <input type="radio" name="wheredidyouhear" value="friend" id="WhereDidYouHearAboutThisSite_0">
+	    From A Freind</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="wheredidyouhear" value="web" id="WhereDidYouHearAboutThisSite_1">
+	    From The Web</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="wheredidyouhear" value="already" id="WhereDidYouHearAboutThisSite_2">
+	    I already Knew About It</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="wheredidyouhear" value="search" id="WhereDidYouHearAboutThisSite_3">
+	    I Searched it</label>
+	  <br>
+  <br>
+	<input type="submit"><input type="reset">
+	
+	
+	
+</form>
+</body>
+</html>
